@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Computer science survey</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <div class="container">
+      <h1>Computer science survey</h1>
+
+      <form>
+         <label for="name">Name:</label><br>
+         <input type="text" id="name" name="name" required><br>
+
+         <label for="email">Email:</label><br>
+         <input type="email" id="email" name="email" required><br>
+
+         <label for="age">Age:</label><br>
+         <input type="number" id="age" name="age" min="10" max="100" required><br>
+
+         <label for="education">Education:</label>
+         <select id="education" name="education" required>
+            <option value="high_school">High School</option>
+            <option value="bachelor">Bachelor's Degree</option>
+            <option value="master">Master's Degree</option>
+            <option value="phd">PhD</option>
+         </select><br>
+
+         <label for="interest">Area of Interest:</label>
+         <select id="interest" name="interest" required>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="ml">Machine Learning</option>
+            <option value="cs">Cyber Security</option>
+            <option value="ds">Data Science</option>
+            <option value="wd">Web Development</option>
+         </select><br>
+
+         <label for="feedback">Additional Feedback:</label><br>
+         <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+
+         <input type="submit" value="Submit">
+      </form>
+
+   </div>
+</body>
+
+</html>
